@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+body {
+    background-color: #00112E;
+    height: 10000px;
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.Title {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.local-nav {
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 29, 54, 0.31);
+    backdrop-filter: blur(10px);
+}
+
+.local-nav-links {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.local-nav-links a {
+    /* font-size: 0.8rem; */
+    font-size: 13px;
+}
+.local-nav-links a:hover {
+    color: #00C9A7;
+    transition: ease 0.3s;
+}
+.local-nav-links a:not(.Main-logo) {
+    margin-left: 2em;
+}
+
+.local-nav-links .Main-logo {
+    margin-right: auto;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: linear-gradient(to left, #9167d4,#00C9A7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
