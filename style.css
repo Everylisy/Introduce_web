@@ -5,15 +5,22 @@
 }
 
 body {
-    background-color: #00112E;
     height: 10000px;
     overflow-x: hidden;
+    background-color: #00112E;
+    transition: background-color 1s ease;
 }
 
 a {
     color: white;
     text-decoration: none;
 }
+/* .section-one {
+    width: 100%;
+    height: 780px;
+    background-color: #00112E;
+} */
+
 .Title {
     color: white;
     font-size: 45px;
@@ -25,6 +32,7 @@ a {
 }
 
 .local-nav {
+    z-index: 1;
     height: 60px;
     position: fixed;
     width: 100%;
@@ -41,7 +49,6 @@ a {
 }
 
 .local-nav-links a {
-    /* font-size: 0.8rem; */
     font-size: 13px;
 }
 .local-nav-links a:hover {
@@ -49,7 +56,7 @@ a {
     transition: ease 0.3s;
 }
 .local-nav-links a:not(.Main-logo) {
-    margin-left: 2em;
+    padding: 12px 15px;
 }
 
 .local-nav-links .Main-logo {
