@@ -21,6 +21,6 @@ anime.timeline().add({
     translateZ: 0,
     opacity: [0, 1],
     easing: "easeOutExpo",
-    duration: 2000,
+    duration: 1900,
     delay: 500,
 });
